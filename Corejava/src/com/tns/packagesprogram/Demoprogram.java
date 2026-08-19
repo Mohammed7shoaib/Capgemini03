@@ -4,6 +4,9 @@ public class Demoprogram {
 public int a = 90;
 public String s="Mohammed";
 public static void main(String[] args) {
-	System.out.println();
+	Demoprogram d=new Demoprogram();
+	
+	System.out.println(d.a);
+	System.out.println(d.s);
 }
 }
