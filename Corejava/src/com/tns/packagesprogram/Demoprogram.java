@@ -1,7 +1,7 @@
 package com.tns.packagesprogram;
 
 public class Demoprogram {
-public int a = 90;
+public int a = 95;
 public String s="Mohammed";
 public static void main(String[] args) {
 	Demoprogram d=new Demoprogram();
