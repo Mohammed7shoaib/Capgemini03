@@ -50,7 +50,8 @@ public static void main(String[] args) {
 	Double salary=sc.nextDouble();
 	
 	Employe1 e=new Employe1(id,name,department,salary);
-	
+	e.dispalyinfo();
+	sc.close();
 }
 }
 
