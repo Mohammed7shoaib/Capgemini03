@@ -9,7 +9,8 @@ static {
 }
 public static void main(String[] args) {
 	
-	System.out.println("starting employee system...");
+	System.out.println("starting employee system..."
+			+ "");
 	System.out.println("employee count= "+employeecount);
 }
 }

@@ -6,8 +6,11 @@ class Employe1{
 	}
 }
 
-class Senioremployee extends Employe1{
-	super.calculatePerformance() {
+class Senioremployee1 extends Employe1{
+	@Override
+	void calculatePerformance() {
+		
+		super.calculatePerformance();
 		
 		
 		System.out.println("Calculating leadership performance");
