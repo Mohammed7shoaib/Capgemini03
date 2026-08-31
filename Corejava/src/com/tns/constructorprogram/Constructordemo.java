@@ -1,7 +1,5 @@
 package com.tns.constructorprogram;
 
-import java.util.*;
-
 
 class Employee1
 {
@@ -9,9 +7,10 @@ class Employee1
 	int salary;
 	
 	//Default Constructor
-	void Employee(){
-		name="Unknown";
-		salary=45000;
+	
+	 Employee1() {
+		name="Dileep";
+		salary=25000;
 	}
 	void display() {
 		System.out.println("name:"+name);
