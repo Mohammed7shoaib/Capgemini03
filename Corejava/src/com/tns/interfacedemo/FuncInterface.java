@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	 Calculator addition = (a, b) -> a + b;
      Calculator multiplication = (a, b) -> a * b;
 
-     System.out.println("Sum: " + addition.calculate(10, 5));         // Output: Sum: 15
-     System.out.println("Product: " + multiplication.calculate(10, 5)); // Output: Product: 50
+     System.out.println("Sum: " + addition.calculate(10, 5));        
+     System.out.println("Product: " + multiplication.calculate(10, 5)); 
 	}
 }
