@@ -4,10 +4,10 @@ public class Immutable2demo {
 	public static void main(String[] args) {
 String s1="Sachin";  // literal
 
-//String str=new String("hello"); //new 
-//System.out.println(str);
-//str=str.concat("welcome to java");
-//System.out.println(str);
+String str=new String("Hello "); //new 
+System.out.println(str);
+str=str.concat(" ,Welcome to java");
+System.out.println(str);
 
 String s2=s1;
 String s3=s2;
