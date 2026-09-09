@@ -34,9 +34,6 @@ public static void main(String[] args) {
 	
 	for(String i:p) {
 		System.out.println(i);
+		}	
 	}
-	
-	
-	
-}
 }
